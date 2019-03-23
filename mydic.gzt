@@ -14,3 +14,7 @@ TAuxDicArticle "населенный_пункт"
 {
     key = "село" | "город" | "губерня" | "деревня" | "хутор" | "поселок" | "г." 
 }
+TAuxDicArticle "римские_цифры"
+{
+    key = "I" | "II" | "III" | "IV" | "V" | "VI" |"VII" | "VIII" |"IX" |"X" |"XI" |"XII" |"XIII" |"XX" |"XXI" |"IXX"" 
+}
