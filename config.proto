@@ -8,4 +8,11 @@ TTextMinerConfig {
   Articles = [
     { Name = "наша_первая_грамматика" } 
   ]
+  Facts = [
+    { Name = "Event" }
+]
+	Output = {
+	    File = "facts.txt";
+	    Format = text;      
+	}
 }
