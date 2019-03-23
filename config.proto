@@ -1,0 +1,11 @@
+encoding "utf8";
+TTextMinerConfig {
+  Dictionary = "mydic.gzt"; 
+  PrettyOutput = "PrettyOutput.html";
+  Input = {
+    File = "test.txt";
+  }
+  Articles = [
+    { Name = "наша_первая_грамматика" } 
+  ]
+}

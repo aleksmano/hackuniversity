@@ -1,0 +1,16 @@
+encoding "utf8";
+import "base.proto";
+import "articles_base.proto"; 
+
+TAuxDicArticle "наша_первая_грамматика"
+{
+    key = { "tomita:first.cxx" type=CUSTOM }
+}
+TAuxDicArticle "месяц"
+{
+    key = "январь" | "февраль" | "март" | "апрель" | "май" | "июнь" | "июль" | "август" |   "сентябрь" | "октябрь" | "ноябрь" | "декабрь"
+}
+TAuxDicArticle "населенный_пункт"
+{
+    key = "село" | "город" | "губерня" | "деревня" | "хутор" | "поселок" | "г." 
+}
